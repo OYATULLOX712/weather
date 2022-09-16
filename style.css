@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.container{
+    max-width: 1340px;
+    width: 100%;
+    position: 0 15px;
+    margin: 0 auto;
+}
+.weather{
+    background-image: url(./photos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.weather-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather-date{
+    margin-top: 30px;
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+    align-self: center;
+    background: rgba(255, 255, 255, 0.192);
+    padding: 5px;
+    border-radius: 20px;
+}
+.weather-search input{
+    height: 50px;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 55px;
+    font-size: 20px;
+    border-radius: 25px;
+    color: black;
+    border: 3px solid rgb(60, 226, 27);
+    outline: none;
+    background: rgba(255, 255, 255, 0.062);
+    margin-top: 50px;
+}
+.weather-city{
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    color: black;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 800;
+    background: rgba(255, 255, 255, 0.192);
+}
+.weather-bottom{
+    display: flex;
+    justify-content: center;
+}
+.weather-box{
+    padding: 40px;
+}
+.weather-day{
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 100px;
+    
+}
+.weather-info{
+    display: flex;
+    justify-content: flex-start;
+}
+.weather-degree{
+    padding-left: 8px;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+.weather-degree p:nth-child(1){
+    border-bottom: 2px solid #fff;
+    font-size: 50px;
+}
+.weather-degree p:nth-child(2){
+    text-align: center;
+}
